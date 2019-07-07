@@ -1,5 +1,4 @@
-def create
-  "CREATE TABLE bears(
+CREATE TABLE bears(
     id INTEGER PRIMARY KEY,
     name TEXT,
     age INTEGER,
@@ -7,5 +6,4 @@ def create
     color TEXT,
     temperament TEXT,
     alive BOOLEAN,
-    );"
-end
+    );
